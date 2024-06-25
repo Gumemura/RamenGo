@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RamenGo Order</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <h1>Order Your Ramen</h1>
+    <form id="order-form">
+        <label for="broth">Choose your broth:</label>
+        <select id="broth" name="broth"></select>
+
+        <label for="protein">Choose your protein:</label>
+        <select id="protein" name="protein"></select>
+
+        <button type="submit">Place Order</button>
+    </form>
+    <div id="confirmation"></div>
+    <script src="/static/app.js"></script>
+</body>
+</html>
